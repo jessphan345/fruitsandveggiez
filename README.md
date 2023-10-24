@@ -2,4 +2,4 @@
 
 > **NOTE:** This is a work in progress.
 
-Template, starter, boilerplate, prototype, etc. for future Web Design projects. 
+DIY Template, starter, boilerplate, prototype, etc. for future Web Design projects. 
