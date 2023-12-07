@@ -10,7 +10,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
     <link rel="manifest" href="/favicons/site.webmanifest">
-
+    
     <!-- Stylesheets -->
     <link rel="stylesheet" href="style.css">
 
@@ -20,11 +20,87 @@
     <title>Web 1 Website Starter</title>
 </head>
 <body>
-    
-    <h1>Don't forget your header Yo!</h1>
-
-    <!-- Find a gif. Add to index.html -->
-    <img src="assets/giphy.gif" alt="Inspirational gif">
+    <section class="panel">
+        <div class="bg title"></div>
+        <p> topic of the week: [Fruits & Veggies] </p>
+      </section>
+      
+      <!-- "brand" -->
+      <section class="panel">
+        <div class="container">
+          <h2 class="filled-text">differences</h2>
+          <h2 class="outline-text">differences</h2>
+          <img class="image" src="https://thenextweb.com/wp-content/blogs.dir/1/files/2015/03/ying_yang_by_rdjpn-d3im20v.jpg">
+        </div>
+      </section>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+      
+      <script type="text/javascript">
+        gsap.to(".filled-text, .outline-text", {
+          scrollTrigger: {
+            trigger: ".filled-text, .outline-text",
+            start: "top bottom",
+            end: "bottom top",
+            scrub: 1
+          },
+          x: 400,
+        })
+        gsap.to(".image", {
+          scrollTrigger: {
+            trigger: ".image",
+            start: "top bottom",
+            end: "bottom top",
+            scrub: 1,
+            // markers: true
+          },
+          x: -800,
+        })
+      </script>
+      
+      <section class="panel">
+        <div class="bg one"></div>
+        <h1>What are Vegetables?</h1>
+        <p>
+          any plant whose fruit, seeds, roots, tubers, bulbs, stems, leaves, or flower parts are used as food, as the tomato, bean, beet, potato, onion, asparagus, spinach, or cauliflower.
+        </p>
+      </section>
+      
+      <section class="panel">
+        <div class="bg two"></div>
+        <h1>What are fruits?</h1>
+        <p> a usually sweet food (such as a blueberry, orange, or apple) that grows on a tree or bush</p>
+      </section>
+      
+      <section class="panel">
+        <div class="bg three"></div>
+        <h1>Notable #1: the California favorite</h1>
+        <p>Believe it or not, avocadoes are fruit. More specifically, botanists define it as a large berry with a single seed.</p>
+      </section>
+      
+      <section class="panel">
+        <div class="bg four"></div>
+        <h1>Notable #2: Fire Fruit...?</h1>
+        <p>While they don't closely resemble oranges or watermelons, all hot peppers are actually fruits</p>
+      </section>
+      
+      <section class="panel">
+        <div class="bg five"></div>
+        <h1>Notable #3: Peas in a Pod</h1>
+        <p>Peas often grow on a vine supported by a pole. Green peas are sometimes called sweet peas or English pease. Peas are actually classified as a fruit, though most people refer to them as vegetables.</p>
+      </section>
+      
+      <div class="bg final"></div>
+      <ul>
+        <p class="sum">Summary</p>
+        <li> a fruit develops from the flower of a plant, while the other parts of the plant are categorized as vegetables. </li>
+        <li> fruits generally have a sweet or tart flavor and can be used in desserts, snacks or juices. </li>
+        <li> vegetables have a more mild or savory taste and are usually eaten as part of a side dish or main course. </li>
+        <li> fruits contain seeds </li>
+        <li>vegetables can consist of roots, stems and leaves.</li>
+        <br>
+      </ul>
 
 </body>
 </html>

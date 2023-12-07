@@ -1,5 +1,7 @@
-# DESN 368 Web Design 1 Starter Template
+# Editorial
 
-> **NOTE:** This is a work in progress.
+> **NOTE:** README for sources 
 
-DIY Template, starter, boilerplate, prototype, etc. for future Web Design projects. 
+* [favicon](https://favicon.io/)
+* [wiki](https://www.wikipedia.org/)
+* [fontshare](https://www.fontshare.com/)
