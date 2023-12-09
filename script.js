@@ -12,7 +12,7 @@ gsap.utils.toArray("section").forEach((section, i) => {
     section.bg,
     {
       backgroundPosition: () =>
-        i ? `10% ${-window.innerHeight * getRatio(section)}px` : "60% 0px"
+        i ? `10% ${-window.innerHeight * getRatio(section)}px` : "80% 0px"
     },
     {
       backgroundPosition: () =>

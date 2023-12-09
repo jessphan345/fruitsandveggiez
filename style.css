@@ -21,7 +21,7 @@ body {
   height: 100%;
   position: relative;
   box-sizing: border-box;
-  padding: 6em;
+  padding: 7em;
 }
 
 /* Container for Background Images  */
@@ -87,7 +87,10 @@ p {
   background-image: url("https://www.bhg.com/thmb/oGUBTcCHQ0bXyJ8rCsLt6O2vrlE=/4000x0/filters:no_upscale():strip_icc()/BHG-Best-Companion-Plants-for-Peas-04Yzs0RF4-N9M7jDgK79bw-c9271b0d29d0449ab6371ba61685fd6e.jpg");
 }
 
-ul {
+li {
+  margin: 40px;
+  display: flex;
+  align-content: space-around;
   line-height: 35px;
   color: black;
   font-family: 'Ranade-LightItalic';
@@ -96,21 +99,21 @@ ul {
 
 /* testing out what we found */
 
+.container {
+  position:sticky;
+}
 .main {
   color: #fff;
   overflow-x: hidden;
   overflow-y: scroll;
-  background: #000;
-  padding: 60px;
   height: 100vh;
-  position: relative;
+  position: absolute;
   width: 100%;
 }
 
 .filled-text {
   position: absolute;
-  top: 189px;
-  left: 100px;
+  left: 200px;
   z-index: 1;
   font-size: 100px;
   font-weight: 600;
@@ -118,20 +121,18 @@ ul {
 
 .outline-text {
   position: absolute;
-  top: 189px;
-  left: 100px;
+  left: 200px;
   z-index: 3;
   font-size: 100px;
   font-weight: 600;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: white;
   color: transparent;
 }
 
 img {
-  position: absolute;
-  top: 50px;
-  left: 600px;
+  position: relative;
+  left: -25px;
   z-index: 2;
   height: 400px;
   width: auto;

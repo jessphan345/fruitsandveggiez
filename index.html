@@ -20,17 +20,22 @@
     <title>differences</title>
 </head>
 <body>
-    <section class="panel">
-        <div class="bg title"></div>
-        <h1> topic of the week: [Fruits & Veggies] </h1>
-      </section>
-      
-      <!-- "brand" -->
+  <div class="bg final"></div>
+      <ul>
+        <br>
+        <li> a fruit develops from the flower of a plant, while the other parts of the plant are categorized as vegetables. </li>
+        <li> fruits generally have a sweet or tart flavor and can be used in desserts, snacks or juices. </li>
+        <li> vegetables have a more mild or savory taste and are usually eaten as part of a side dish or main course. </li>
+        <li> fruits contain seeds </li>
+        <li>vegetables can consist of roots, stems and leaves</li>
+      </ul>
+
+      <!-- "brand" intro scrolling -->
       <section class="panel">
         <div class="container">
           <h2 class="filled-text">differences</h2>
           <h2 class="outline-text">differences</h2>
-          <img class="image" src="https://thenextweb.com/wp-content/blogs.dir/1/files/2015/03/ying_yang_by_rdjpn-d3im20v.jpg">
+          <img class="image" src="https://miro.medium.com/v2/resize:fit:1200/1*-XDgqpI1VmONAbyFSDQppw.jpeg">
         </div>
       </section>
       
@@ -43,9 +48,9 @@
             trigger: ".filled-text, .outline-text",
             start: "top bottom",
             end: "bottom top",
-            scrub: 1
+            scrub: 1,
           },
-          x: 400,
+          x: -100,
         })
         gsap.to(".image", {
           scrollTrigger: {
@@ -55,9 +60,11 @@
             scrub: 1,
             // markers: true
           },
-          x: -800,
+          x: 850,
         })
       </script>
+
+      <!-- end of intro -->
       
       <section class="panel">
         <div class="bg one"></div>
@@ -91,15 +98,6 @@
         <p>Peas often grow on a vine supported by a pole. Green peas are sometimes called sweet peas or English pease. Peas are actually classified as a fruit, though most people refer to them as vegetables.</p>
       </section>
       
-      <div class="bg final"></div>
-      <ul>
-        <li> a fruit develops from the flower of a plant, while the other parts of the plant are categorized as vegetables. </li>
-        <li> fruits generally have a sweet or tart flavor and can be used in desserts, snacks or juices. </li>
-        <li> vegetables have a more mild or savory taste and are usually eaten as part of a side dish or main course. </li>
-        <li> fruits contain seeds </li>
-        <li>vegetables can consist of roots, stems and leaves.</li>
-        <br>
-      </ul>
-
+     
 </body>
 </html>
