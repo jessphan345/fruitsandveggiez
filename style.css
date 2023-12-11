@@ -88,10 +88,8 @@ p {
 }
 
 li {
-  margin: 40px;
-  display: flex;
-  align-content: space-around;
-  line-height: 35px;
+  margin-left: 100px;
+  line-height: 145px;
   color: black;
   font-family: 'Ranade-LightItalic';
 }
@@ -103,7 +101,6 @@ li {
   position:sticky;
 }
 .main {
-  color: #fff;
   overflow-x: hidden;
   overflow-y: scroll;
   height: 100vh;
